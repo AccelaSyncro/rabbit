@@ -27,8 +27,10 @@ export default defineConfig({
   css:{
     preprocessorOptions:{
       scss:{
+        //自动导入的定制化样式文件
         additionalData:`
           @use "@/styles/element/index.scss" as *;
+          @use "@/styles/var.scss" as *;
         `
       }
     }
