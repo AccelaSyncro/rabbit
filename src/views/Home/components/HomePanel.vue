@@ -1,10 +1,12 @@
 <script setup>
 defineProps({
     titile:{
-        type:String
+        type:String,
+        default:''
     },
     subTitle:{
-        type:String
+        type:String,
+        default:''
     }
 })
 </script>
